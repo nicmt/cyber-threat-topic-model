@@ -1,0 +1,7 @@
+﻿Meta-Model,Tuned Hyperparameters,Sub-model qualified,Total Clusters,Total Outliers,Smallest Cluster Size,Largest Cluster Size,Average Cluster Size
+ATT+UMP+HDB,"n_neighbors, n_components",53,46-83(63.1),55-112(86.2),2-3(2.0),15-63(38.0),5.2-9.1(6.7)
+UNI+UMP+HDB,"n_neighbors, n_components",96,48-89(62.7),54-149(105.3),2-2(2),14-65(31.7),4.8-8.3(6.4)
+ATT+UMP+KMS,"n_neighbors, n_components, n_clusters",96,19,0,2-18(9.3),41-74(49.2),26.5
+UNI+UMP+KMS,"n_neighbors, n_components, n_clusters",96,10,0,6-28(20.9),66-114(76.0),50.3
+ATT+PCA+KMS,"n_components, n_clusters",14,28,0,1-6(3.9),32-59(40.2),18
+UNI+PCA+KMS,"n_components, n_clusters",10,7,0,21-39(28.9),102-141(120.4),71.9

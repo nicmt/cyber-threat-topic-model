@@ -1,0 +1,60 @@
+﻿Topic,Count,Topic Words/Terms (Top 10),Proposed Parent Cluster to Merge,Count after Merge,Proposed Threat Description after Merge
+/Cluster Label,,,,,
+-1,136,{outliers},,,
+0,35,'input' 'include' 'access' 'sensitive' 'data' 'information' 'product' 'affected' 'user' 'lead',,54,Missing or improper neutralisation
+1,19,'product' 'case' 'input' 'products' 'inputs' 'component' 'data' 'special' 'include' 'special elements',0,,
+2,15,'input' 'validation' 'regular expression' 'regular' 'expression' 'input validation' 'regular expressions' 'glyphs' 'expressions' 'cryptographic',,18,Improper input validation
+3,14,'product' 'products' 'include' 'behavior' 'surface' 'sensitive' 'information' 'processed' 'used' 'access',,18,Insecure product configuration (incl. defaults)
+4,14,'pointer' 'memory' 'buffer' 'null' 'null pointer' 'code' 'input' 'pointers' 'crashes' 'arbitrary code',,14,Insecure memory buffer (i.e. buffer overflow)
+5,10,'session' 'web' 'authorization' 'web application' 'server' 'url' 'application' 'session management' 'activex' 'web server',,14,Improper session management
+6,10,'password' 'passwords' 'authentication' 'login' 'accounts' 'attackers' 'user accounts' 'unauthorized access' 'hashing' 'user',,20,Weak implementation or configuration of password-based authentication
+7,10,'authentication' 'password' 'accounts' 'user accounts' 'user' 'account' 'mechanism' 'authentication mechanism' 'access' 'unauthorized',6,,
+8,9,'return' 'error' 'handler' 'software' 'return values' 'feature api' 'behavior' 'unexpected' 'api function' 'feature',,69,"Improper adherence to coding best practice (optimisation, error handling, exceptions, accidents, maintenance, style, formatting, complexity)"
+9,9,'privilege' 'privileges' 'resources functionality' 'access' 'threat' 'resources' 'actions' 'unauthorized' 'privilege escalation' 'escalation',,14,Insufficient privilege management or compartmentalisation
+10,9,'soc' 'device' 'electromagnetic' 'information' 'physical' 'threat' 'confidential' 'debug' 'confidential information' 'access',,14,Side channel and SoC threats
+11,9,'captcha' 'challenge' 'key' 'access' 'cache' 'captcha challenge' 'case' 'unauthorized' 'incorrect tokens' 'tokens',,12,Insufficient or misconfigured access control
+12,8,'error' 'handling' 'exceptions' 'error handling' 'code' 'handling code' 'conditions' 'exception' 'complex error' 'exception handling',8,,
+13,8,'code' 'complexity' 'excessive' 'commentedout' 'commentedout code' 'bugs' 'quality' 'complex' 'introducing' 'complex code',8,,
+14,8,'encryption' 'algorithm' 'communication' 'cryptographic algorithm' 'cryptographic' 'weaker' 'data' 'certificate' 'weaker encryption' 'certificates',,8,Missing authentication
+15,7,'user' 'ui' 'interface' 'user interface' 'warning' 'actions' 'users' 'dangerous' 'dangerous function' 'function',,7,Error or feature omission in UI
+16,7,'documentation' 'design' 'systemdependent' 'programs' 'systemdependent functionality' 'comprehensive' 'design documentation' 'lack' 'productspecific programs' 'productspecific',,14,Insufficient technical documentation
+17,7,'performance' 'database' 'queries' 'table' 'query' 'data' 'excessive' 'data table' 'large' 'data accessesqueries',,7,"Improper adherence to database best practice (queries, indices, features etc)"
+18,7,'isolation' 'rom' 'rom code' 'shared' 'shared resources' 'cpu instructions' 'cpu' 'instructions' 'hardware structures' 'securitycritical cpu',,32,Deficient hardware architecture/security features
+19,7,'documentation' 'product' 'proper documentation' 'platforms' 'components' 'runtime support' 'support component' 'component' 'support' 'thirdparty components',16,,
+20,7,'resource' 'resources' 'released' 'resource management' 'uninitialized' 'supporting' 'supporting resources' 'functionsmethods' 'temporary supporting' 'released resource',,24,Improper control of software resource through its lifetime
+21,7,'permissions' 'files' 'file' 'objects' 'installation' 'installation process' 'object' 'process' 'installed' 'access',,7,Incorrect permission assignment for critical resource
+22,6,'numbers' 'random' 'generated' 'random number' 'prng' 'algorithm' 'number' 'pseudorandom' 'number generator' 'generator',,16,Improperly configured or weak encryption
+23,6,'data' 'nonces' 'mutable data' 'mutable' 'serialization' 'serialized' 'function' 'serializable' 'member elements' 'elements',8,,
+24,5,'hardware' 'hardware design' 'register' 'hardware module' 'module' 'control register' 'design control' 'design' 'language code' 'description language',18,,
+25,5,'cryptographic' 'algorithm' 'encrypted' 'nonstandard' 'ivs' 'cryptographic primitive' 'cryptographic implementation' 'inputs' 'primitive' 'cryptographic operations',22,,
+26,5,'class' 'destructor' 'virtual' 'child' 'parent' 'leaks' 'parent class' 'child class' 'virtual destructor' 'memory leaks',8,,
+27,5,'transmission' 'transmitted' 'communication' 'message' 'channel' 'communication channel' 'data transmitted' 'data' 'securitycritical data' 'sensitive securitycritical',22,,
+28,5,'debug' 'debugging' 'debugging messages' 'production code' 'production' 'debug components' 'products debug' 'messages' 'fuses' 'securitysensitive information',8,,
+29,5,'hardware' 'wear' 'registers' 'wear leveling' 'memories' 'leveling' 'register' 'nonvolatile' 'nonvolatile memories' 'memorymapped io',18,,
+30,5,'alternate' 'alternate channel' 'channel' 'network' 'initialization' 'data stores' 'variables data' 'changes' 'critical internal' 'internal variables',10,,
+31,5,'loop' 'infinite' 'nonreentrant function' 'nonreentrant' 'loops' 'condition' 'infinite loop' 'loop conditions' 'concurrent' 'platform resources',8,,
+32,5,'credentials' 'authentication' 'default credentials' 'default' 'hardcoded credentials' 'authentication algorithm' 'unauthorized' 'access' 'parties' 'unauthorized access',,5,"Improper or weak credential management (incl. selection, storage and sharing)"
+33,4,'hardcoded values' 'network' 'owner' 'resources' 'values' 'hardcoded' 'default value' 'resource' 'default' 'network resources',3,,
+34,4,'comments' 'code' 'source code' 'source' 'standards' 'inaccurate' 'inconsistent' 'inaccurate comments' 'inconsistent nonstandard' 'whitespace',8,,
+35,4,'boot' 'firmware' 'process' 'boot process' 'secureboot' 'volatile memory' 'volatile' 'secureboot process' 'boot flow' 'secure boot',18,,
+36,4,'resource' 'resources' 'resource management' 'management' 'release' 'proper resource' 'handling resources' 'resources handles' 'handles' 'unique identifiers',20,,
+37,4,'channel' 'communication' 'http' 'request' 'alternate' 'requests' 'alternate channel' 'communication channel' 'malformed' 'outgoing',5,,
+38,4,'power' 'processor' 'reset' 'state' 'debug state' 'power debug' 'power saverestore' 'saverestore' 'processor instructions' 'securitycritical logic',18,,
+39,4,'lock' 'resource' 'locked' 'locking' 'locked resource' 'lock checking' 'unlocking' 'proper lock' 'resource locked' 'excessive locking',20,,
+40,4,'synchronization' 'shared resource' 'shared' 'threads' 'deadlock' 'resource' 'multiple threads' 'multiple' 'threads processes' 'processes access',20,,
+41,3,'fabric' 'transactions' 'ip blocks' 'translation' 'blocks' 'ip' 'data transferred' 'control' 'transferred' 'fabric transactions',18,,
+42,3,'path' 'search' 'search path' 'resources' 'controlled search' 'controlled' 'critical resources' 'files' 'resources accessed' 'critical',9,,
+43,3,'variables' 'variable' 'global' 'global variables' 'static' 'static code' 'code' 'scope' 'block' 'code block',8,,
+44,3,'comparison' 'data representation' 'representation' 'incorrect comparison' 'entities' 'incorrect' 'compared' 'entities compared' 'lowlevel data' 'comparisons',8,,
+45,3,'real' 'calculations' 'real numbers' 'accuracy' 'accuracy precision' 'precision' 'fractional' 'shifting' 'integer' 'conversion',8,,
+46,3,'metadata' 'file device' 'access' 'access control' 'information' 'file' 'sensitive information' 'device' 'records' 'sensitive',11,,
+47,3,'constants' 'symbolic' 'hardcoded constants' 'definitions' 'constant definitions' 'constant' 'source code' 'code' 'hardcoded' 'source',8,,
+48,3,'sentinel' 'deprecated' 'functions' 'accidental' 'deprecated functions' 'problems' 'datastructure' 'logic problems' 'sentinel value' 'datastructure sentinel',8,,
+49,3,'variables' 'attributes' 'dynamicallyidentified' 'dynamicallyidentified variables' 'restricted functionality' 'administration' 'attributes modified' 'administration restricted' 'product' 'functionality',20,,
+50,3,'xml' 'malicious xml' 'product' 'xml product' 'filename' 'case' 'malicious' 'untrusted source' 'file' 'implementing',2,,
+51,2,'removal' 'securitycritical protection' 'data removal' 'removal process' 'hardware components' 'securitycritical' 'protection' 'optimization' 'potentially sensitive' 'protection mechanism',8,,
+52,2,'addresses' 'protected' 'lock' 'configuration' 'protected registers' 'registers lock' 'lock bits' 'power state' 'state transitions' 'transitions',20,,
+53,2,'function' 'api requirements' 'requirements' 'parameter' 'api' 'undefined behavior' 'control parameter' 'undefined' 'application' 'privileges',8,,
+54,2,'regions' 'memory' 'mmio regions' 'mmio' 'mirrored memory' 'mirrored' 'memory areas' 'protection' 'overlapping' 'memory regions',18,,
+55,2,'trusted' 'data' 'untrusted data' 'data sources' 'sources' 'trusted untrusted' 'untrusted' 'mixed' 'structured' 'trusted data',9,,
+56,2,'sensor' 'sensor data' 'device' 'data values' 'parametric' 'readings' 'parametric data' 'untrusted software' 'temperatures' 'threat',18,,
